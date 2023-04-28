@@ -1,0 +1,17 @@
+## config file for Snow inventory plug-in
+plugin: servicenow.itsm.now
+inventory_hostname_source: name
+table: cmdb_ci_server
+query:
+  - name: = phl2ossprw109
+columns:
+  - name
+  - host_name
+  - virtual
+  - ip_address
+  - operational_status
+  - u_types
+  - model_number
+  - serial_number
+  - u_server_os
+  
