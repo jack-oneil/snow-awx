@@ -1,4 +1,3 @@
-## config file for Snow inventory plug-in
 plugin: servicenow.itsm.now
 inventory_hostname_source: name
 table: cmdb_ci_server
